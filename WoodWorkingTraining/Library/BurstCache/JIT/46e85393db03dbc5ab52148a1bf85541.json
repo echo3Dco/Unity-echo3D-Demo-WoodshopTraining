@@ -1,0 +1,28 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "#dllimport:dracodec_unity|GetAttributeData",
+      "FullName": "Draco.DracoNative.GetAttributeData(Draco.DracoNative.DracoMesh* mesh, Draco.DracoNative.DracoAttribute* attr, Draco.DracoNative.DracoData** data, bool flip) -> bool"
+    },
+    {
+      "Name": "#dllimport:dracodec_unity|ReleaseDracoData",
+      "FullName": "Draco.DracoNative.ReleaseDracoData(Draco.DracoNative.DracoData** data) -> void"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsDefaultValue",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsDefaultValue(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> bool_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckWriteAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}

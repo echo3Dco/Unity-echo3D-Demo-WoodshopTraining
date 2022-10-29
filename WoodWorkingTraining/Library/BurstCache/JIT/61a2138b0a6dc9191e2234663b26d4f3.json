@@ -1,0 +1,32 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "#dllimport:dracodec_unity|GetMeshIndices",
+      "FullName": "Draco.DracoNative.GetMeshIndices(Draco.DracoNative.DracoMesh* mesh, Draco.DataType dataType, void* indices, int indicesCount, bool flip) -> bool"
+    },
+    {
+      "Name": "UnityEngine.Mesh/MeshData::GetIndexDataSize",
+      "FullName": "UnityEngine.Mesh.MeshData.GetIndexDataSize(System.IntPtr self) -> ulong_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Mesh/MeshData::GetIndexDataPtr",
+      "FullName": "UnityEngine.Mesh.MeshData.GetIndexDataPtr(System.IntPtr self) -> System.IntPtr_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsDefaultValue",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsDefaultValue(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> bool_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckWriteAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}
