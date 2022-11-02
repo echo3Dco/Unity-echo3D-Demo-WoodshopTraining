@@ -59,45 +59,4 @@ public class UIController : MonoBehaviour
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    void AxeTest()
-    {
-        // set AxeUI active and WrenchUI inactive
-    }
-
-    void MeasuringTapeTest()
-    {
-        // set MeasuringTapeUI active, AxeUI inactive
-    }
-
-    void ScrewdriverTest()
-    {
-        // set MeasuringTapeUI active
-    }
-
-    // If wrong object, activate NO or YES UI
 }
