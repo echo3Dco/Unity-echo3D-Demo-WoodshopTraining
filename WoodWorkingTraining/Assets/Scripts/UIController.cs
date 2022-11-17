@@ -15,7 +15,7 @@ public class UIController : MonoBehaviour
 
     void Start()
     {
-        Invoke("InstructionChange", 5.0f);
+        Invoke("InstructionChange", 8.0f);
     }
 
     void InstructionChange()
@@ -32,26 +32,26 @@ public class UIController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-               if (hit.transform.name == "Wrench")
+                if (hit.transform.name == "WrenchParent")
                 {
                     wrenchUI.SetActive(false);
                     axeUI.SetActive(true);
                 }
 
-                if (hit.transform.name == "Axe")
+                if (hit.transform.name == "AxeParent")
                 {
                     axeUI.SetActive(false);
                     measuringTapeUI.SetActive(true);
                    
                 }
 
-                if (hit.transform.name == "MeasuringTape")
+                if (hit.transform.name == "MeasuringTapeParent")
                 {
                     measuringTapeUI.SetActive(false);
                     screwdriverUI.SetActive(true);
                 }
 
-                if (hit.transform.name == "Screwdriver")
+                if (hit.transform.name == "ScrewdriverParent")
                 {
                     screwdriverUI.SetActive(false);
                     goodJobUI.SetActive(true);

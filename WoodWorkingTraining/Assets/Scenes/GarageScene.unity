@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 48588165}
   m_Layer: 0
   m_Name: ScrewdriverParent
-  m_TagString: Untagged
+  m_TagString: Screwdriver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,13 +150,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48588160}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19934869, y: 0.27256793, z: -1.4298038}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.32331914, y: 0.089488655, z: -0.63245225, w: 0.6981839}
+  m_LocalPosition: {x: -0.024689, y: -0.40341, z: -0.51418}
+  m_LocalScale: {x: 0.01549022, y: 0.01549022, z: 0.01549022}
   m_Children: []
   m_Father: {fileID: 1183774402}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -19.772, y: 34.567, z: -90.552}
 --- !u!65 &48588162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -210,11 +210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: <YOUR_API_KEY>
+  apiKey: 
   entries: 
   tags: 
   editorPreview: 1
-  queryURL: 
+  queryURL: https://api.echo3D.co/query?key=woodworkingtraining1&secKey=<YOUR_SECURITY_KEY>&src=UnitySDK&entries=b9a0e6e7-5657-4ac1-b9f9-8bc5fb340937
   queryOnly: 0
   disableRemoteTransformations: 0
   ignoreModelTransforms: 1
@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 246794544}
   m_Layer: 0
   m_Name: MeasuringTapeParent
-  m_TagString: Untagged
+  m_TagString: MeasuringTape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -380,13 +380,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246794539}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19934869, y: 0.27256793, z: -1.4298038}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7038318, w: 0.71036667}
+  m_LocalPosition: {x: 0.30544, y: -0.36953, z: -0.41642}
+  m_LocalScale: {x: 0.016176546, y: 0.016176546, z: 0.016176546}
   m_Children: []
   m_Father: {fileID: 1183774402}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.47}
 --- !u!65 &246794541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -440,11 +440,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: <YOUR_API_KEY>
+  apiKey: 
   entries: 
   tags: 
   editorPreview: 1
-  queryURL: 
+  queryURL: https://api.echo3D.co/query?key=woodworkingtraining1&secKey=<YOUR_SECURITY_KEY>&src=UnitySDK&entries=a9d22326-a81d-42ba-8cf8-5f8ce1006a72
   queryOnly: 0
   disableRemoteTransformations: 0
   ignoreModelTransforms: 1
@@ -909,7 +909,7 @@ RectTransform:
   - {fileID: 2005790836}
   - {fileID: 664501803}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1085,7 +1085,7 @@ GameObject:
   - component: {fileID: 828227136}
   m_Layer: 0
   m_Name: AxeParent
-  m_TagString: Untagged
+  m_TagString: Axe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1098,8 +1098,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828227131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19934869, y: 0.27256793, z: -1.4298038}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.552, y: -0.292, z: -0.848}
+  m_LocalScale: {x: 0.019233039, y: 0.019233039, z: 0.019233039}
   m_Children: []
   m_Father: {fileID: 1183774402}
   m_RootOrder: 0
@@ -1157,11 +1157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: <YOUR_API_KEY>
+  apiKey: 
   entries: 
   tags: 
   editorPreview: 1
-  queryURL: 
+  queryURL: https://api.echo3D.co/query?key=woodworkingtraining1&secKey=<YOUR_SECURITY_KEY>&src=UnitySDK&entries=238c4417-02b1-4a6c-8936-d889d51811ab
   queryOnly: 0
   disableRemoteTransformations: 0
   ignoreModelTransforms: 1
@@ -1263,7 +1263,7 @@ GameObject:
   - component: {fileID: 975941731}
   m_Layer: 0
   m_Name: WrenchParent
-  m_TagString: Untagged
+  m_TagString: Wrench
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1275,13 +1275,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975941726}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19934869, y: 0.27256793, z: -1.4298038}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.5478452, y: -0.5195071, z: -0.4511996, w: 0.4758119}
+  m_LocalPosition: {x: -0.19894, y: -0.409, z: -0.69081}
+  m_LocalScale: {x: 0.050713964, y: 0.050713964, z: 0.050713964}
   m_Children: []
   m_Father: {fileID: 1183774402}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -98.05, y: 0, z: -86.95801}
 --- !u!65 &975941728
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1335,78 +1335,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: <YOUR_API_KEY>
+  apiKey: 
   entries: 
   tags: 
   editorPreview: 1
-  queryURL: 
+  queryURL: https://api.echo3D.co/query?key=woodworkingtraining1&secKey=<YOUR_SECURITY_KEY>&src=UnitySDK&entries=73dbb4f9-71b4-4763-8f2d-db8a69fcdbaf
   queryOnly: 0
   disableRemoteTransformations: 0
   ignoreModelTransforms: 1
---- !u!1 &1060010800
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1060010802}
-  - component: {fileID: 1060010801}
-  m_Layer: 0
-  m_Name: Reflection Probe
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!215 &1060010801
-ReflectionProbe:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060010800}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Type: 0
-  m_Mode: 2
-  m_RefreshMode: 0
-  m_TimeSlicingMode: 0
-  m_Resolution: 256
-  m_UpdateFrequency: 0
-  m_BoxSize: {x: 10, y: 10, z: 10}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
-  m_NearClip: 0.3
-  m_FarClip: 1000
-  m_ShadowDistance: 100
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IntensityMultiplier: 0.18
-  m_BlendDistance: 1
-  m_HDR: 1
-  m_BoxProjection: 0
-  m_RenderDynamicObjects: 0
-  m_UseOcclusionCulling: 1
-  m_Importance: 1
-  m_CustomBakedTexture: {fileID: 0}
---- !u!4 &1060010802
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060010800}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.041, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1172209192 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8009013706316911, guid: e6084503f826bbb428b1e677dc1a75d4, type: 3}
@@ -1457,7 +1393,7 @@ Transform:
   - {fileID: 246794540}
   - {fileID: 975941727}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1186004777
 GameObject:
@@ -1550,7 +1486,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -30.773, y: -316.214, z: 153.696}
 --- !u!1 &1405537683
 GameObject:
@@ -1822,7 +1758,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1865090700
 PrefabInstance:
@@ -1833,7 +1769,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
       propertyPath: m_LocalPosition.x
